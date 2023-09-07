@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root {
+    --primary-color: #ff1b6b;
+    --secondary-color: #e81cff;
+}
+/* header section */
+.header {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/accets/about\ background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+.header .logo {
+    width: 200px;
+    cursor: pointer;
+}
+.header .nav-bar {
+    display: flex;
+    justify-content: center;
+}
+.nav-bar li {
+    list-style: none;
+    padding: 0 22px;
+    margin: -80px 0;
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.nav-bar li a:hover {
+    color: var(--secondary-color);
+    transition: 0.6s;
+}
+.header .btn {
+    float: right;
+    margin: -97px 0;
+    color: #fff;
+    border: 2px solid var(--secondary-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+.header .btn:hover {
+    border: 2px solid var(--primary-color);
+    background-color: #ff1b6b;
+    color: #fff;
+}
+.header .btn:hover:active {
+    color: #fff;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+.header h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 44px;
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+.header p {
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+/* about info section */
+.row .featurette-heading{
+   font-size: 30px;
+}
+.info .col-md-7{
+    padding-left: 80px;
+}
+/* Banner section */
+
+.banner {
+    background-image: url(/accets/banner.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 150px 0;
+    background-attachment: fixed;
+}
+
+.banner-highlight {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-btn {
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    padding: 7px 30px;
+    color: rgb(105, 96, 96);
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.banner-btn:hover {
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: #fff;
+}
+
+.banner-btn:hover:active {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+/* Footer Section*/
+
+.footer {
+    background-color: #040E27;
+    color: #fff;
+    margin-top: 130px;
+    padding: 70px 0;
+    padding-bottom: 30px;
+}
+.footer .footer-logo img {
+    width: 180px;
+    cursor: pointer;
+}
+.footer-widget p {
+    margin-left: 22px;
+    margin-right: 10px;
+}
+.social-links .social {
+    color: #fff;
+    width: 23px;
+    font-size: 23px;
+    margin-left: 22px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.social-links .social:hover {
+    color: var(--primary-color);
+}
+.footer-widget h3 {
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.Links li {
+    list-style: none;
+    padding: 11px 0;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.Links li:hover {
+    color: var(--primary-color);
+}
+.links li {
+    padding: 11px 0;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.links li:hover {
+    color: var(--primary-color);
+}
+.double-links li {
+    text-align: right;
+    padding: 11px 0;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.6s;
+    padding-right: 25px;
+}
+.double-links {
+    margin-top: -199px;
+    text-align: left;
+}
+.double-links li:hover {
+    color: var(--primary-color);
+}
+.single-insta {
+    width: 33.33%;
+    padding: 7.5px;
+    float: left;
+    overflow: hidden;
+}
+.single-insta img {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.single-insta img:hover {
+    filter: grayscale(80%);
+}
+.footer hr {
+    margin-top: 140px;
+    padding-bottom:20px ;
+}
+.footer-bottom{
+    text-align: center;
+}
+.footer-bottom span{
+    color: var(--secondary-color);
+}
+.footer-bottom p{
+    color: rgba(255, 255, 255, 0.617);
+    font-weight: 300;
+}
